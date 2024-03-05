@@ -1,0 +1,49 @@
+.records-list {
+    list-style: none;
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+}
+
+.records-card {
+    background: linear-gradient(135deg, #4a508e 0%, #4a508e 100%);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 150px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.records-card-name {
+    color: #c4e3ff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    width: fit-content;
+}
+
+.records-card-name:hover {
+    transform: scale(1.05);
+}
+
+.records-card-status {
+    text-align: right;
+    font-size: 14px;
+    text-transform: lowercase;
+    font-weight: 600;
+    color: #8effa9;
+}
+
+.records-card-status.not-completed {
+    color: #ff7e6d;
+}
