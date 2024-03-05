@@ -29,7 +29,7 @@
     font-size: 20px;
     cursor: pointer;
     transition: transform 0.2s ease;
-    width: fit-content;
+    max-width: fit-content;
 }
 
 .records-card-name:hover {
